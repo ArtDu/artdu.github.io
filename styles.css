@@ -1,0 +1,82 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  line-height: 1.4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 1.25em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.25em 0;
+}
+
+section {
+  margin: 1em 0;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+.contacts {
+  position: relative;
+  display: inline-block;
+}
+
+.contacts dt {
+  float: left;
+  min-width: 8em;
+}
+
+.contacts dd {
+  margin-bottom: 1.2em;
+  overflow: hidden;
+}
+
+.contacts dd::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(1.5em);
+  border-bottom: 1px solid #dadada;
+}
+
+
+.exp {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.box {
+  margin: 0;
+ flex: 0 1 auto;
+
+}
+
+.date{
+  min-width: 300px;
+  margin-left: 5px;
+}
